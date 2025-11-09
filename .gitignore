@@ -1,4 +1,29 @@
 .env
 .env
 .env.*
+.venv/
+venv/
+# Python noise
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
 
+# App outputs / caches
+outputs/
+.cache/
+.huggingface/
+huggingface/
+
+# Large/weight files (never commit)
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+*.dylib
+
+
+# allow sample prompt file
+!data/prompts.csv
+EOF
