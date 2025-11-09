@@ -35,6 +35,7 @@ Moodboard Export
 
 ## Project Structure
 
+```
 AI_Design_Inspiration_Generator/
 │
 ├── app/
@@ -54,7 +55,7 @@ AI_Design_Inspiration_Generator/
 ├── .env # Hugging Face token (NOT committed)
 ├── .env.example
 └── .gitignore
-
+```
 
 ## Setup & Installation
 
