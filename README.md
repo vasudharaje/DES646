@@ -17,17 +17,21 @@ The system supports refinement, exploration, and moodboard export—making it a 
 
 ## How It Works
 
-User Prompt
+User Prompt  
     ↓
-Stable Diffusion (Diffusers)
-    ↓ generates multiple concept images ↓
-CLIP (SentenceTransformer)
-    ↓ embeds each image semantically ↓
-KMeans Clustering
-    ↓ groups images into design directions ↓
-Streamlit UI
-    ↓ displays clusters + refinement options ↓
-Moodboard Export
+Stable Diffusion (Diffusers)  
+    ↓ 
+generates multiple concept images  
+    ↓  
+CLIP (SentenceTransformer)  
+    ↓  
+embeds each image semantically  
+    ↓
+KMeans Clustering  
+    ↓ groups images into design directions ↓  
+Streamlit UI  
+    ↓ displays clusters + refinement options ↓  
+Moodboard Export  
 
 ## Project Structure
 
@@ -109,7 +113,7 @@ python models/generate_image.py --prompt "modern lamp concept" --num 1
 
 Run Streamlit UI:
 ```bash
-streamlit run app/streamlit_app.py
+streamlit run streamlit_app.py
 ```
 
 ## Usage Guide

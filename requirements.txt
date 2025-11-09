@@ -13,3 +13,4 @@ pandas
 matplotlib
 opencv-python
 tqdm
+torchvision==0.18.*
