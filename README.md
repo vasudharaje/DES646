@@ -34,22 +34,23 @@ Moodboard Export
 AI_Design_Inspiration_Generator/
 │
 ├── app/
-│   └── streamlit_app.py           # Main UI
+│ └── streamlit_app.py # Main UI
 │
 ├── models/
-│   ├── generate_image.py          # Stable Diffusion pipeline
-│   └── semantic_cluster.py        # CLIP embeddings + clustering
+│ ├── generate_image.py # Stable Diffusion pipeline
+│ └── semantic_cluster.py # CLIP embeddings + clustering
 │
 ├── data/
-│   └── prompts.csv                # Sample prompt dataset
+│ └── prompts.csv # Sample prompt dataset
 │
-├── outputs/                       # Generated images (auto-created)
+├── outputs/ # Generated images (auto-created)
 │
-├── test_env.py                    # Quick environment verification
+├── test_env.py # Quick environment verification
 ├── requirements.txt
-├── .env                           # Hugging Face token (NOT committed)
+├── .env # Hugging Face token (NOT committed)
 ├── .env.example
 └── .gitignore
+
 
 ## Setup & Installation
 
